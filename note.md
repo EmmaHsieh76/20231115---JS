@@ -33,10 +33,10 @@ new URL(相對路徑,主網域網址).href =>把兩個路徑串聯再一起
 
 npm i node-schedule => 自己更新程式碼套件
 
-# crontab => The quick and simple editor for cron schedule expressions by Cronitor
-
-# 快速找出生成更新碼的語法
+# crontab => The quick and simple editor for cron schedule expressions by Cronitor -> 快速找出生成更新碼的語法
 
 https://crontab.guru/
+
+# 雲端
 
 https://render.com/
