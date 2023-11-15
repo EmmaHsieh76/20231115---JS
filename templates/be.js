@@ -1,0 +1,29 @@
+// export default{} =>在js網頁裡引入json檔案
+export default () => {
+  return {
+    type: 'bubble',
+    hero: {
+      type: 'image',
+      url: 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png',
+      size: 'full',
+      aspectRatio: '20:13',
+      aspectMode: 'cover',
+      action: {
+        type: 'uri',
+        uri: 'http://linecorp.com/'
+      }
+    },
+    body: {
+      type: 'box',
+      layout: 'vertical',
+      contents: [
+        {
+          type: 'text',
+          text: 'Brown Cafe',
+          weight: 'bold',
+          size: 'xl'
+        }
+      ]
+    }
+  }
+}
